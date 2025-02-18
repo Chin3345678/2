@@ -1,0 +1,30 @@
+
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>父親節卡通角色測驗</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>歡迎來到父親節卡通角色測驗</h1>
+        <p>這個測驗將幫助你發現自己最接近哪位經典卡通爸爸！</p>
+        <button id="start-btn">祝爸爸父親節快樂！開始測驗</button>
+        <div id="quiz-container" class="hidden">
+            <div id="question-container"></div>
+            <button id="next-btn" class="hidden">下一題</button>
+        </div>
+        <div id="result-container" class="hidden">
+            <h2>你的測驗結果：</h2>
+            <img id="result-image" src="" alt="測驗結果圖片">
+            <p id="result-text"></p>
+            <button id="share-btn">分享結果</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

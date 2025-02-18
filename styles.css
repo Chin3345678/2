@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('C:\Users\ALOHA\Downloads\fatherday2\background.jpg');
+    background-size: cover;
+    background-color: brown;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    margin-top: 10px;
+    cursor: pointer;
+    background: #ffcc00;
+    border: none;
+    border-radius: 5px;
+}
+
+.hidden {
+    display: none;
+}
+
+#result-image {
+    max-width: 300px;
+    margin-top: 10px;
+}
