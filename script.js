@@ -133,6 +133,22 @@ function showResult() {
   $("#characterImage").attr("src", profile.image);
   $("#resultDescription").text(profile.description);
 
+  const facebookShareText = encodeURIComponent(`我在「動漫爸爸 MBTI 心理測驗」中是 ${profile.name}！`);
+  const facebookShareUrl = encodeURIComponent("https://chin3345678.github.io/5/");
+  const shareButton = $("<a>")
+    .attr("href", `https://www.facebook.com/sharer/sharer.php?u=${facebookShareUrl}&quote=${facebookShareText}`)
+    .attr("target", "_blank")
+    .text("📘 分享到 Facebook")
+    .css({
+      backgroundColor: "#4267B2",
+      color: "white",
+      padding: "10px 20px",
+      borderRadius: "8px",
+      textDecoration: "none",
+      display: "inline-block",
+      fontWeight: "bold"
+    });
+
   const lineShareUrl = `https://line.me/R/msg/text/?我在「動漫爸爸 MBTI 心理測驗」中是 ${profile.name}！%0Ahttps://chin3345678.github.io/5/`;
   const lineShareButton = $("<a>")
     .attr("href", lineShareUrl)
@@ -149,4 +165,43 @@ function showResult() {
       fontWeight: "bold"
     });
 
-  $("#result").append(shareButton, lineShareButton);
+  const buttonWrapper = $("<div>").css({ marginTop: "16px" }).append(shareButton, lineShareButton);
+  $("#result").append(buttonWrapper);
+}
+
+function mostFrequentType(types) {
+  const frequency = types.reduce(
+    (acc, type) => ((acc[type] = (acc[type] || 0) + 1), acc),
+    {}
+  );
+  return Object.keys(frequency).reduce((a, b) =>
+    frequency[a] >= frequency[b] ? a : b
+  );
+}
+
+$("#startButton").on("click", function () {
+  $("#intro").hide();
+  $("#quiz").show();
+  loadScenario(currentScenario);
+});
+
+$("#nextButton").on("click", function () {
+  if (currentScenario < scenarios.length - 1) {
+    currentScenario++;
+    loadScenario(currentScenario);
+  }
+});
+
+$("#finishButton").on("click", function () {
+  if (chosenTypes[currentScenario]) {
+    showResult();
+  }
+});
+
+$("#restartButton").on("click", function () {
+  currentScenario = 0;
+  chosenTypes.length = 0;
+  $("#result").hide();
+  $("#intro").show();
+});
+</script>
