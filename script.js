@@ -58,38 +58,38 @@ const scenarios = [
 
 const characterProfiles = {
   ESFJ: {
-    name: "螃蟹寶寶-釀老閥 (ESFJ)",
-    description: "擁有 ESFJ 的友善個性，是團體中的最佳支持者。",
+    name: "蠟筆小新-野原廣智 (ESFJ)",
+    description: "熱心又有責任感的社交高手，下班再累也不忘逗孩子笑，是最會用行動表達愛的爸爸。偶爾小抱怨，只因他太在乎這個家。",
     image: "https://chin3345678.github.io/5/images/hiroshi.png"
   },
   INTJ: {
-    name: "名傳探查-毛利小五郎 (INTJ)",
-    description: "展現 INTJ 的冷靜與策略性，縛密思考。",
+    name: "名偵探柯南-毛利小五郎 (INTJ)",
+    description: "外表鬆散、內心縝密，是用邏輯思考撐起家的神秘智將。行動低調，腦袋高速運轉，只是行動力…有時交給柯南。",
     image: "https://chin3345678.github.io/5/images/kogoro.png"
   },
   ISTJ: {
-    name: "橡桃小丸子-橡廣志 (ISTJ)",
-    description: "秤持踐實與責任感，確保大小事有條不綿。",
+    name: "櫻桃小丸子-櫻廣志 (ISTJ)",
+    description: "工作一絲不苟，回家後絕不馬虎——尤其是對冰箱裡的啤酒數量。",
     image: "https://chin3345678.github.io/5/images/sakura.png"
   },
   ENFP: {
-    name: "火影忍者-潛潛鳴人 (ENFP)",
-    description: "充滿熱情，用積極態度影響身邊的人。",
+    name: "火影忍者-漩渦窩鳴人 (ENFP)",
+    description: "熱血樂觀、感染力十足，是用夢想帶動家的行動派爸爸。雖然不太擅長細節，但孩子知道他永遠站在自己這邊。",
     image: "https://chin3345678.github.io/5/images/naruto.png"
   },
   ISFJ: {
-    name: "間調家家酒-黃昏 (ISFJ)",
-    description: "溫柔體貼，充分體現照顧與保護特質。",
+    name: "間諜家家酒-黃昏 佛傑 (ISFJ)",
+    description: "細心穩重、默默付出，是用行動守護家人安全感的職人型爸爸。外表冷靜，內心滿滿都是對家的溫柔與堅持。",
     image: "https://chin3345678.github.io/5/images/loidy.png"
   },
   ESTJ: {
     name: "海綿寶寶-蟹老閥 (ESTJ)",
-    description: "擁有強烈的領導力與責任感，是統總與效率的代言人。",
+    description: "講求規則、效率滿分，是能把家庭經營得像公司一樣穩的行動派爸爸。雖然偶爾嚴肅，但背後全是責任感。",
     image: "https://chin3345678.github.io/5/images/krabs.png"
   },
   ISFP: {
-    name: "佩佩豪-豪爸爸 (ISFP)",
-    description: "溫和有趣，愛家愛生活，是孩子眼中最溫暖的存在。",
+    name: "佩佩豬-豬爸爸 (ISFP)",
+    description: "溫柔善感、慢條斯理，是用陪伴說愛的藝術型爸爸。他的世界沒有高聲斥責，只有靜靜坐在你身邊的溫暖。",
     image: "https://chin3345678.github.io/5/images/daddypig.png"
   }
 };
