@@ -64,12 +64,12 @@ const characterProfiles = {
   },
   INTJ: {
     name: "名偵探柯南-毛利小五郎 (INTJ)",
-    description: "外表鬆散、內心縝密，是用邏輯思考撐起家的神秘智將。行動低調，腦袋高速運轉，只是行動力…有時交給柯南。",
+    description: "外表看起來散漫、內心其實縝密，是用邏輯思考撐起家的神秘智將。行動低調，腦袋高速運轉，只是行動力…有時交給柯南。",
     image: "https://chin3345678.github.io/5/images/kogoro.png"
   },
   ISTJ: {
     name: "櫻桃小丸子-櫻廣志 (ISTJ)",
-    description: "工作一絲不苟，回家後絕不馬虎——尤其是對冰箱裡的啤酒數量。",
+    description: "常常負責家裡的經濟開支、講求秩序，會關心錢花到哪裡，行事保守又重視責任，回家後絕不馬虎——尤其是對冰箱裡的啤酒數量。",
     image: "https://chin3345678.github.io/5/images/sakura.png"
   },
   ENFP: {
