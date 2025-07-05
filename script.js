@@ -58,8 +58,8 @@ const scenarios = [
 
 const characterProfiles = {
   ESFJ: {
-    name: "蠟筆小新-野原廣智 (ESFJ)",
-    description: "熱心又有責任感的社交高手，下班再累也不忘逗孩子笑，是最會用行動表達愛的爸爸。偶爾小抱怨，只因他太在乎這個家。",
+    name: "蠟筆小新-野原廣志 (ESFJ)",
+    description: "熱心又有責任感的社交高手，下班再累也不忘逗孩子笑，雖然鞋子一脫全家昏倒，但沒人懷疑他對家的愛是最濃的。",
     image: "https://chin3345678.github.io/5/images/hiroshi.png"
   },
   INTJ: {
@@ -73,7 +73,7 @@ const characterProfiles = {
     image: "https://chin3345678.github.io/5/images/sakura.png"
   },
   ENFP: {
-    name: "火影忍者-漩渦窩鳴人 (ENFP)",
+    name: "火影忍者-漩渦鳴人 (ENFP)",
     description: "熱血樂觀、感染力十足，是用夢想帶動家的行動派爸爸。雖然不太擅長細節，但孩子知道他永遠站在自己這邊。",
     image: "https://chin3345678.github.io/5/images/naruto.png"
   },
@@ -84,7 +84,7 @@ const characterProfiles = {
   },
   ESTJ: {
     name: "海綿寶寶-蟹老閥 (ESTJ)",
-    description: "講求規則、效率滿分，是能把家庭經營得像公司一樣穩的行動派爸爸。雖然偶爾嚴肅，但背後全是責任感。",
+    description: "講求規則、效率滿分，是能把家庭經營得像公司一樣穩的行動派爸爸。最愛的三樣東西：錢、錢、還有錢——但家人永遠是他最保值的投資。",
     image: "https://chin3345678.github.io/5/images/krabs.png"
   },
   ISFP: {
