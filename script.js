@@ -143,7 +143,7 @@ function showResult() {
   );
   $("#lineShareButton").attr(
     "href",
-    `https://line.me/R/msg/text/?${encodeURIComponent("我在「菲比英文-動漫爸爸 MBTI 心理測驗」中是 " + profile.name + "！\nhttps://chin3345678.github.io/2/")}`
+    `https://line.me/R/msg/text/?${encodeURIComponent("我在「菲比英文-動漫爸爸 MBTI 心理測驗」中是 " + profile.name + "！你也來測看看吧!\nhttps://chin3345678.github.io/2/")}`
   );
 }
 
