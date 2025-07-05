@@ -139,11 +139,11 @@ function showResult() {
 
   $("#shareButton").attr(
     "href",
-    `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent("https://chin3345678.github.io/5/")}&quote=${encodeURIComponent("我在「動漫爸爸 MBTI 心理測驗」中是 " + profile.name + "！")}`
+    `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent("https://chin3345678.github.io/2/")}&quote=${encodeURIComponent("我在「動漫爸爸 MBTI 心理測驗」中是 " + profile.name + "！")}`
   );
   $("#lineShareButton").attr(
     "href",
-    `https://line.me/R/msg/text/?${encodeURIComponent("我在「動漫爸爸 MBTI 心理測驗」中是 " + profile.name + "！\nhttps://chin3345678.github.io/5/")}`
+    `https://line.me/R/msg/text/?${encodeURIComponent("我在「動漫爸爸 MBTI 心理測驗」中是 " + profile.name + "！\nhttps://chin3345678.github.io/2/")}`
   );
 }
 
