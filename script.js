@@ -146,7 +146,11 @@ function showResult() {
     `https://line.me/R/msg/text/?${encodeURIComponent("我在「菲比英文-動漫爸爸 MBTI 心理測驗」中是 " + profile.name + "！你也來測看看吧!\nhttps://chin3345678.github.io/2/")}`
   );
 }
-
+   $("#facebookShareButton").attr(
+    "href",
+    `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent("https://chin3345678.github.io/2/")}&quote=${encodeURIComponent("我在「菲比英文-動漫爸爸 MBTI 心理測驗」中是 " + profile.name + "！你也來測看看吧！")}`
+  );
+}
 function mostFrequentType(types) {
   const frequency = types.reduce(
     (acc, type) => ((acc[type] = (acc[type] || 0) + 1), acc),
