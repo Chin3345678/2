@@ -132,7 +132,7 @@ function showResult() {
   const profile = characterProfiles[resultType];
 
   $("#quiz").hide();
-  $("#resultTitle").text(你的人格類型是：${profile.name});
+ $("#resultTitle").text(`你的人格類型是：${profile.name}`);
   $("#characterImage").attr("src", profile.image);
   $("#resultDescription").text(profile.description);
   $("#result").show();
