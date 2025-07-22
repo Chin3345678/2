@@ -68,7 +68,7 @@ const characterProfiles = {
     image: "https://chin3345678.github.io/5/images/kogoro.png"
   },
   ISTJ: {
-    name: "櫻桃小丸子-櫻廣志 (ISTJ)",
+    name: "櫻桃小丸子-櫻宏志 (ISTJ)",
     description: "常常負責家裡的經濟開支、講求秩序，會關心錢花到哪裡，行事保守又重視責任，回家後絕不馬虎——尤其是對冰箱裡的啤酒數量。",
     image: "https://chin3345678.github.io/5/images/sakura.png"
   },
