@@ -83,7 +83,7 @@ const characterProfiles = {
     image: "https://chin3345678.github.io/5/images/loidy.png"
   },
   ESTJ: {
-    name: "海綿寶寶-蟹老閥 (ESTJ)",
+    name: "海綿寶寶-蟹老闆 (ESTJ)",
     description: "講求規則、效率滿分，是能把家庭經營得像公司一樣穩的行動派爸爸。最愛的三樣東西：錢、錢、還有錢——但家人永遠是他最保值的投資。",
     image: "https://chin3345678.github.io/5/images/krabs.png"
   },
